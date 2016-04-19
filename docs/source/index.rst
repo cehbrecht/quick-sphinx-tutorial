@@ -7,7 +7,7 @@
 Quick Sphinx Tutorial
 =====================
 
-Welcome to this short Sphinx tutorial. This tutorial will give you a quick overview of what Sphinx can do for you. If you want more details about Sphinx then have a look at the appendix or one the other tutorials. 
+Welcome to this short Sphinx tutorial. This tutorial will give you a quick overview of what Sphinx can do for you. If you want more details about Sphinx then have a look at the appendix or one the other tutorials. Of course a tutorial about Sphinx is written in Sphinx.
 
 You can clone this tutorial from `GitHub`_.
 
