@@ -9,12 +9,16 @@ Quick Sphinx Tutorial
 
 Welcome to the short introduction to Sphinx.
 
-
-Contents:
-
 .. toctree::
    :maxdepth: 2
 
+   intro
+   install
+   firststeps
+   rst.rst
+   code.rst
+   rtd.rst
+   advanced.rst
    appendix
 
 
