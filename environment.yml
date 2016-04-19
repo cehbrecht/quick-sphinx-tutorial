@@ -1,0 +1,7 @@
+# conda env create environment.yml
+name: giza
+channels:
+  - birdhouse
+dependencies:
+  - python=2
+  - sphinx
