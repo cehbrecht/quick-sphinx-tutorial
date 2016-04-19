@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Giza'
+project = u'Quick Sphinx Tutorial'
 copyright = u'2016, Carsten Ehbrecht'
 author = u'Carsten Ehbrecht'
 
