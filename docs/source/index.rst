@@ -7,10 +7,12 @@
 Quick Sphinx Tutorial
 =====================
 
-Welcome to the short introduction to Sphinx.
+Welcome to this short Sphinx tutorial. This tutorial will give you a quick overview of what Sphinx can do for you. If you want more details about Sphinx then have a look at the appendix or one the other tutorials. 
+
+You can clone this tutorial from `GitHub`_.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    intro
    install
@@ -21,7 +23,7 @@ Welcome to the short introduction to Sphinx.
    advanced.rst
    appendix
 
-
+.. _GitHub: https://github.com/cehbrecht/quick-sphinx-tutorial
 
 Indices and tables
 ==================
