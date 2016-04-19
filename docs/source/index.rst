@@ -3,13 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Giza's documentation!
-================================
+=====================
+Quick Sphinx Tutorial
+=====================
+
+Welcome to the short introduction to Sphinx.
+
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
+
+   appendix
 
 
 
