@@ -7,7 +7,10 @@
 Quick Sphinx Tutorial
 =====================
 
-Welcome to this short Sphinx tutorial. This tutorial will give you a quick overview of what Sphinx can do for you. If you want to know more details about Sphinx then have a look at :ref:`appendix` or at `one`_ or the `other`_ tutorial. 
+Welcome to this short `Sphinx`_ tutorial. This tutorial will give you
+a quick overview of what Sphinx can do for you. If you want to know
+about the Sphinx details then have a look at :ref:`appendix` and at
+`one`_ or the `other`_ tutorial.
 
 Of course a tutorial about Sphinx is written in Sphinx.
 
