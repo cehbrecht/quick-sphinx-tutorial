@@ -32,6 +32,8 @@ Examples on Sphinx
 
 * https://docs.python.org/2.7/
 * http://bokeh.pydata.org/en/latest/
+* http://docs.geotools.org/
+* http://docs.geoserver.org/latest/en/user/
 * http://ryan-roemer.github.io/sphinx-bootstrap-theme/
 * http://cppformat.github.io/latest/
 

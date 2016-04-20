@@ -1,6 +1,26 @@
 First Steps with Sphinx
 =======================
 
+Prepare the tutorial demo
+-------------------------
+
+You can clone this tutorial and setup Sphinx:
+
+.. code:: bash
+
+   $ git clone https://github.com/cehbrecht/quick-sphinx-tutorial.git
+
+Setup the conda enviroment:
+
+.. code:: bash
+
+   $ cd quick-sphinx-tutorial
+   $ conda env create -f environment.yml
+   $ source activate giza
+
+Or use pip to install the Sphinx packages:
+
+  $ pip install -r requirements.txt
 
 Getting Started
 ---------------
@@ -31,6 +51,7 @@ Your file system should now look similar to this::
         ├── _build
         ├── _sources
              ├── index.rst
+
        
 Building docs
 -------------
