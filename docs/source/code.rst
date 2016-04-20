@@ -1,48 +1,37 @@
 .. _code:
 
-Reference Python Code
+Reference Source Code
 =====================
 
-Using autoapi:
+Inline Source code
+------------------
 
-.. code:: bash
+Some Python code:
 
-   $ pip install sphinx_autoapi
+.. code:: python
 
-Configure autoapi:
+   import os
+   os.path.basename("path/to/sphinx.rst")
 
-.. code: python
 
-   # Add any Sphinx extension module names here, as strings. They can be
-   # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-   # ones.
-   extensions = [
-       'autoapi.extension',
-       'sphinx.ext.intersphinx',
-       'sphinx.ext.todo',
-       'sphinx.ext.viewcode',
-   ]
+Include Source Code
+-------------------
 
-   # autoapi configuration
-   autoapi_type = 'python'
-   autoapi_dirs = ['../../giza']
-   autoapi_file_pattern = '*.py'
-   autoapi_options = ['members', 'undoc-members', 'private-members']
+.. literalinclude:: ../../giza/__init__.py
+    :language: python
 
-Play with Sphinx autoapi
-------------------------
 
-``sphinx-autoapi`` is a tool that I am helping develop which will make doing API docs easier.
-It depends on parsing,
-instead of importing code.
-This means you don't need to change your PYTHONPATH at all,
-and we have a few other different design decisions.
+Use Sphinx autoapi
+------------------
+
+`sphinx-autoapi`_ is a tool to make API docs.
+It depends on parsing, instead of importing code.
 
 First you need to install autoapi:
 
 .. code:: bash
 
-        pip install sphinx-autoapi
+        $ pip install sphinx-autoapi
 
 Then add it to your Sphinx project's ``conf.py``:
 
@@ -59,3 +48,7 @@ AutoAPI will automatically add itself to the last TOCTree in your top-level ``in
 This is needed because we will be outputting rst files into the ``autoapi`` directory.
 This adds it into the global TOCTree for your project,
 so that it appears in the menus.
+
+.. note:: Life Preview of `Giza autoapi <./autoapi/index.html>`_
+
+.. _sphinx-autoapi: http://sphinx-autoapi.readthedocs.org/en/latest/
