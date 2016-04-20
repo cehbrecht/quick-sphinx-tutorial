@@ -38,8 +38,8 @@ extensions = [
 # autoapi configuration
 autoapi_type = 'python'
 autoapi_dirs = ['../../giza']
-autoapi_file_pattern = '*.py'
-autoapi_options = ['members', 'undoc-members', 'private-members']
+#autoapi_file_pattern = '*.py'
+#autoapi_options = ['members', 'undoc-members', 'private-members']
 
     
 # Add any paths that contain templates here, relative to this directory.
@@ -310,4 +310,14 @@ texinfo_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+intersphinx_mapping = {
+    'sphinx': ('http://sphinx-doc.org/', None),
+    'sphinx-tutorial': ('https://sphinx-tutorial.readthedocs.org/', None),
+}
+
+# Link references always present on RST page.
+rst_epilog = """
+.. _Sphinx: http://sphinx-doc.org/
+.. _reStructuredText: http://sphinx-doc.org/rest.html
+.. _Read the Docs: https://readthedocs.org
+"""

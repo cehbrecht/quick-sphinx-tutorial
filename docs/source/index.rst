@@ -27,6 +27,6 @@ You can clone this tutorial from `GitHub`_.
 
 .. _GitHub: https://github.com/cehbrecht/quick-sphinx-tutorial
 .. _one: http://gisellezeno.com/tutorials/sphinx-for-python-documentation.html
-.. _other: http://brandons-sphinx-tutorial.readthedocs.org/en/latest/
+.. _other: https://sphinx-tutorial.readthedocs.org/
 
 
