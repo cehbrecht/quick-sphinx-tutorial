@@ -3,13 +3,6 @@
 Further Topics ...
 ==================
 
-use linkchecker
----------------
-
-.. code:: bash
-
-   $ make linkcheck
-
 Automatic build with travis
 ---------------------------
 
