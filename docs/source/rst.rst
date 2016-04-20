@@ -22,3 +22,13 @@ The :ref:`rst-primer` in the Sphinx docs is a great place to start.
 .. note:: Use the `cheatsheet`_ for lots more ideas!
 
 .. _cheatsheet:  https://sphinx-tutorial.readthedocs.org/cheatsheet/
+
+Quick ReST example
+------------------
+
+An example for reStructuredText:
+
+.. literalinclude:: quick-rst.rst
+    :language: rst
+
+.. note:: Life Preview: :doc:`quick-rst`
