@@ -20,7 +20,9 @@ Setup the conda enviroment:
 
 Or use pip to install the Sphinx packages:
 
-  $ pip install -r requirements.txt
+.. code:: bash
+
+   $ pip install -r requirements.txt
 
 Getting Started
 ---------------
