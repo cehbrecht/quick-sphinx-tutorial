@@ -14,11 +14,11 @@ You can create other files here for additional documentation. Once you have crea
 Play with reStructuredText (ReST) Syntax
 ----------------------------------------
 
-.. note:: ReST takes a bit of practice to wrap your head around. Go over to http://rst.ninjs.org, which is a live preview.
-
-.. note:: Use the `cheatsheet`_ for lots more ideas!
+ReST takes a bit of practice to wrap your head around. Go over to http://rst.ninjs.org, which is a live preview.
 
 Looking for some ideas of what the syntax contains?
 The :ref:`rst-primer` in the Sphinx docs is a great place to start.
+
+.. note:: Use the `cheatsheet`_ for lots more ideas!
 
 .. _cheatsheet:  https://sphinx-tutorial.readthedocs.org/cheatsheet/
