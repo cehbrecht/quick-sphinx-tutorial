@@ -19,6 +19,8 @@ Include Source Code
 
 .. literalinclude:: ../../giza/__init__.py
     :language: python
+    :lines: 1-5
+    :emphasize-lines: 2
 
 
 Use Sphinx autoapi

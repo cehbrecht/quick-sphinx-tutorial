@@ -61,7 +61,7 @@ Create the sphinx skeleton:
    > mathjax: include math, rendered in the browser by MathJax (y/n) [n]: 
    > ifconfig: conditional inclusion of content based on config values (y/n) [n]: 
    > viewcode: include links to the source code of documented Python objects (y/n) [n]: y
-   > githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]: y
+   > githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]: n
    > Create Makefile? (y/n) [y]: 
    > Create Windows command file? (y/n) [y]: 
 

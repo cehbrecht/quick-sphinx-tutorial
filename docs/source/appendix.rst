@@ -6,6 +6,7 @@ Useful Links
 Documentation
 -------------
 
+* `Sphinx`_
 * `Python Guide - Documentation <http://docs.python-guide.org/en/latest/writing/documentation/>`_
 * `Read the Docs Documentation <https://docs.readthedocs.org/en/latest/>`_
 
