@@ -6,5 +6,6 @@ dependencies:
   - python=2
   - sphinx
   - sphinx_rtd_theme
+  - pytest
   - pip:
     - sphinx-autoapi
