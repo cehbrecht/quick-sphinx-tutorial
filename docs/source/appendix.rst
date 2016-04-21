@@ -6,14 +6,15 @@ Useful Links
 Documentation
 -------------
 
-* `Sphinx`_
+* `Sphinx Documentation <Sphinx>`_
 * `Python Guide - Documentation <http://docs.python-guide.org/en/latest/writing/documentation/>`_
 * `Read the Docs Documentation <https://docs.readthedocs.org/en/latest/>`_
 
 Restructured Text
 -----------------
 
-* `Sphinx Rest Reference <http://www.sphinx-doc.org/en/stable/rest.html>`_
+* :ref:`Sphinx reStructuredText Primer <rst-primer>`
+* :ref:`sphinxmarkup`
 * `Restuctured Text and Sphinx <http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_
 * `Online reStructuredText editor <http://rst.ninjs.org>`_
 

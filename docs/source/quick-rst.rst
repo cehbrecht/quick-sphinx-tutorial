@@ -5,8 +5,10 @@ ReST Quick Reference
 Underline titles with punctuation
 =================================
 
-For subtitles, switch to another punctuation mark
--------------------------------------------------
+.. _rst_example:
+
+ReST example markup
+-------------------
 
 *Italic* **bold** ``name`` ``function()`` ``expression = 3 + 3``
 `Hyperlink <http://en.wikipedia.org/wiki/Hyperlink>`_ `Link`_
@@ -36,7 +38,18 @@ another term
 
 Code blocks are introduced by a double-colon and are indented::
 
+     $ mkdir docs
+
+Examples using Sphinx markup
+----------------------------
+
+A python code block using Sphinx markup:
+
+.. code:: python
+
      import docutils
      print help(docutils)
 
->>> print 'But doctests start with ">>>" and need no indentation.'
+.. note:: This is a note using Sphinx markup.
+
+This is a reference to :ref:`rst_example`.

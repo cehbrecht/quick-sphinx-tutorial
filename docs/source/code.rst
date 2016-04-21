@@ -1,18 +1,34 @@
 .. _code:
 
-Reference Source Code
-=====================
+Showing Source Code
+===================
 
-Inline Source code
+Using a code block
 ------------------
 
-Some Python code:
+Show a Python code block with highlighted lines::
 
-.. code:: python
+  .. code-block:: python
+     :linenos:
+     :emphasize-lines: 3,5
 
-   import os
-   os.path.basename("path/to/sphinx.rst")
+     def some_function():
+         interesting = False
+         print 'This line is highlighted.'
+         print 'This one is not...'
+         print '...but this one is.'
 
+And this is how it looks like:
+
+.. code-block:: python
+     :linenos:
+     :emphasize-lines: 3,5
+
+     def some_function():
+         interesting = False
+         print 'This line is highlighted.'
+         print 'This one is not...'
+         print '...but this one is.'
 
 Include Source Code
 -------------------

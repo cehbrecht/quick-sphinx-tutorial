@@ -1,16 +1,16 @@
 First Steps with Sphinx
 =======================
 
-Prepare the tutorial demo
--------------------------
+Prepare the tutorial demo (optional)
+------------------------------------
 
-You can clone this tutorial and setup Sphinx:
+To see a Sphinx example you can clone this tutorial from GitHub:
 
 .. code:: bash
 
    $ git clone https://github.com/cehbrecht/quick-sphinx-tutorial.git
 
-Setup the conda enviroment:
+Setup the conda environment which includes the Sphinx package with some extensions:
 
 .. code:: bash
 
@@ -61,7 +61,7 @@ Create the sphinx skeleton:
    > mathjax: include math, rendered in the browser by MathJax (y/n) [n]: 
    > ifconfig: conditional inclusion of content based on config values (y/n) [n]: 
    > viewcode: include links to the source code of documented Python objects (y/n) [n]: y
-   > githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]: n
+   > githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]:
    > Create Makefile? (y/n) [y]: 
    > Create Windows command file? (y/n) [y]: 
 
@@ -72,10 +72,10 @@ Your file system should now look similar to this::
     └── docs
         ├── Makefile
         ├── make.bat
-        ├── _build
-        ├── _sources
+        ├── build
+        └── sources
              ├── conf.py
-             ├── index.rst
+             └── index.rst
 
        
 Building docs
@@ -91,15 +91,15 @@ Simply run:
 
 This should run Sphinx in your shell, and output HTML.
 At the end, it should say something about the documents being ready in
-``_build/html``.
+``build/html``.
 You can now open them in your browser by typing:
 
 .. code:: bash
 
-    $ firefox _build/html/index.html
+    $ firefox build/html/index.html
 
-Custom Theme
-------------
+Change the Look
+---------------
 
 You can change the look of the generated documents by setting the ``html_theme`` setting in your ``conf.py``.
 Go ahead and set it like this::
@@ -113,8 +113,8 @@ you will see the new theme:
 
     $ make html
 
-Use the linkchecker
--------------------
+Check the Links
+---------------
 
 Sphinx can check if the links in your document are valid:
 

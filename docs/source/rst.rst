@@ -8,22 +8,25 @@ After using ``sphinx-quickstart`` you have the ``index.rst`` file which contains
 .. literalinclude:: index.rst
     :language: rst
 
-You can create other files here for additional documentation. Once you have created them, then you can include them in the table of contents in index.rst.
+You can create other files here for additional documentation. Once you
+have created them, then you can include them in the table of contents
+in ``index.rst``.
 
 
-Play with reStructuredText (ReST) Syntax
+Play with reStructuredText (reST) Syntax
 ----------------------------------------
 
-ReST takes a bit of practice to wrap your head around. Go over to http://rst.ninjs.org, which is a live preview.
+`reStructuredText`_ takes a bit of practice. Go over to http://rst.ninjs.org, which is a live preview.
 
-Looking for some ideas of what the syntax contains?
-The :ref:`rst-primer` in the Sphinx docs is a great place to start.
+To get started with the reST syntax, you can read the :ref:`rst-primer` in the Sphinx docs.
 
-.. note:: Use the `cheatsheet`_ for lots more ideas!
+.. warning:: reST is extended by :ref:`sphinxmarkup` to manage metadata, indexing, and cross-references.
+
+.. note:: The `cheatsheet`_ gives an overview of reST and the Sphinx markup extensions.
 
 .. _cheatsheet:  https://sphinx-tutorial.readthedocs.org/cheatsheet/
 
-Quick ReST example
+Quick reST example
 ------------------
 
 An example for reStructuredText:
