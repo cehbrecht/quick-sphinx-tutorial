@@ -2,8 +2,8 @@
 Quick Sphinx Tutorial
 =====================
 
-.. image:: https://travis-ci.org/pingucarsti/quick-sphinx-tutorial.svg?branch=master
-   :target: https://travis-ci.org/pingucarsti/quick-sphinx-tutorial
+.. image:: https://travis-ci.org/cehbrecht/quick-sphinx-tutorial.svg?branch=master
+   :target: https://travis-ci.org/cehbrecht/quick-sphinx-tutorial
    :alt: Travis Build
 
 Welcome to this short `Sphinx`_ tutorial. This tutorial is a concise

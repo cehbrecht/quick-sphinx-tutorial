@@ -24,7 +24,7 @@ who made the last commit via eMail.
 
 .. note:: 
 
-   See the results for this tutorial on `Travis <https://travis-ci.org/pingucarsti/quick-sphinx-tutorial>`_
+   See the results for this tutorial on `Travis <https://travis-ci.org/cehbrecht/quick-sphinx-tutorial>`_
  
 Configure theme for rtd
 -----------------------
