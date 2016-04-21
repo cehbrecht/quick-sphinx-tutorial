@@ -14,7 +14,7 @@ repository with instructions how to build and test your software:
 .. literalinclude:: ../../.travis.yml
     :language: YAML
     :linenos:
-    :emphasize-lines: 13
+    :emphasize-lines: 14
 
 Add the instruction to build your Sphinx documentation with the
 ``linkcheck`` target. The travis build will be run (in a docker
@@ -22,9 +22,21 @@ container) each time you push to GitHub. When somethings fails
 (install, tests, docs, linkcheck) then travis will inform the person
 who made the last commit via eMail.
 
-.. note:: 
+.. warning::
 
-   See the results for this tutorial on `Travis <https://travis-ci.org/cehbrecht/quick-sphinx-tutorial>`_
+   See the travis build status for this tutorial: |travis-status|
+
+You can add an image with a link to the status of the travis build to your documenation:
+
+::
+
+   .. image:: https://travis-ci.org/my-orga/my-repo.svg?branch=master
+      :target: https://travis-ci.org/my-orga/my-repo
+      :alt: Travis Build
+
+.. |travis-status| image:: https://travis-ci.org/cehbrecht/quick-sphinx-tutorial.svg?branch=master
+   :target: https://travis-ci.org/cehbrecht/quick-sphinx-tutorial
+   :alt: Travis Build
  
 Configure theme for rtd
 -----------------------
