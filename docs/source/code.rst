@@ -33,10 +33,21 @@ And this is how it looks like:
 Include Source Code
 -------------------
 
+Include source code from a file and show only a part of it:
+
+::
+
+   .. literalinclude:: ../../giza/__init__.py
+      :language: python
+      :linenos:
+      :lines: 22-32
+
+And here is how it looks like:
+
 .. literalinclude:: ../../giza/__init__.py
     :language: python
-    :lines: 1-5
-    :emphasize-lines: 2
+    :linenos:
+    :lines: 22-32
 
 
 Use Sphinx autoapi

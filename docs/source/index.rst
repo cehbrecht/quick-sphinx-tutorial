@@ -6,10 +6,11 @@ Welcome to this short `Sphinx`_ tutorial. This tutorial is a concise
 summary of other Sphinx tutorials and will give you a quick overview
 of what Sphinx can do for you. If you want to know about the Sphinx
 details then have a look at :ref:`appendix` and at `one`_ or the
-`other`_ tutorial. Of course a tutorial about Sphinx is written in
-Sphinx.
+`other`_ tutorial. 
 
-You can clone this tutorial from `GitHub`_ and it is available on `ReadTheDocs`_.
+.. note:: Of course a tutorial about Sphinx is written in `Sphinx`_. You
+          can clone this tutorial from `GitHub`_ and it is hosted
+          on `ReadTheDocs`_.
 
 .. toctree::
    :maxdepth: 1

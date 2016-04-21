@@ -5,13 +5,13 @@ Installing Sphinx
 
 You can install Sphinx from PyPI with pip:
 
-.. code:: bash
+.. code-block:: bash
 
    $ pip install sphinx
 
 Or install it with conda:
 
-.. code:: bash
+.. code-block:: bash
 
    $ conda install sphinx
 
