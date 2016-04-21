@@ -40,14 +40,14 @@ Include source code from a file and show only a part of it:
    .. literalinclude:: ../../giza/__init__.py
       :language: python
       :linenos:
-      :lines: 22-32
+      :lines: 11-26
 
 And here is how it looks like:
 
 .. literalinclude:: ../../giza/__init__.py
     :language: python
-    :linenos:
-    :lines: 22-32
+    :linenos: 
+    :lines: 11-26
 
 
 Use Sphinx autoapi

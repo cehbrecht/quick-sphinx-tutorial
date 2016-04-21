@@ -10,7 +10,7 @@ long_description = (
 reqs = [line.strip() for line in open('requirements.txt')]
 
 setup(name             = 'giza',
-      version          = '0.1.0',
+      version          = '1.0.0',
       description      = 'Demo for Sphinx Tutorial',
       long_description = long_description,
       author	       = 'Carsten Ebhrecht',
@@ -20,4 +20,9 @@ setup(name             = 'giza',
       include_package_data=True,
       zip_safe         = False,
       install_requires = reqs,
+      entry_points = {
+          'console_scripts': [
+              'giza=giza:main',
+              ]}
+
       )
