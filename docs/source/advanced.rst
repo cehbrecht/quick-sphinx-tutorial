@@ -6,9 +6,26 @@ Going Further into Sphinx
 Automatic build with travis
 ---------------------------
 
+`Travis CI`_ is a continuous integration service used to build and test software projects hosted at GitHub (Wikipedia).
+
+Add a ``.travis.yml`` file to the top level directory of your GitHub
+repository with instructions how to build and test your software:
+
 .. literalinclude:: ../../.travis.yml
     :language: YAML
+    :linenos:
+    :emphasize-lines: 13
 
+Add the instruction to build your Sphinx documentation with the
+``linkcheck`` target. The travis build will be run (in a docker
+container) each time you push to GitHub. When somethings fails
+(install, tests, docs, linkcheck) then travis will inform the person
+who made the last commit via eMail.
+
+.. note:: 
+
+   See the results for this tutorial on `Travis <https://travis-ci.org/pingucarsti/quick-sphinx-tutorial>`_
+ 
 Configure theme for rtd
 -----------------------
 
@@ -48,6 +65,7 @@ This extension creates .nojekyll file on generated HTML directory to publish the
 
 See also: http://gisellezeno.com/tutorials/sphinx-for-python-documentation.html
 
+.. _Travis CI: https://travis-ci.org/
 .. _githubpages: http://www.sphinx-doc.org/en/stable/ext/githubpages.html
 .. _docs.readthedocs.org: http://docs.readthedocs.org/en/latest/faq.html?highlight=autodoc#how-do-i-change-behavior-for-read-the-docs
 
