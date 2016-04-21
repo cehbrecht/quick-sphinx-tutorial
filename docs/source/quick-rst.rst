@@ -45,7 +45,7 @@ Examples using Sphinx markup
 
 A python code block using Sphinx markup:
 
-.. code:: python
+.. code-block:: python
 
      import docutils
      print help(docutils)
