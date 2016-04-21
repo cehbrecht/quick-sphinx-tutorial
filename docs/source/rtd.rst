@@ -3,7 +3,7 @@
 ReadTheDocs and Sphinx
 ======================
 
-The powerful and popular `ReadTheDocs`_ service
+The powerful and popular `Read The Docs`_ service
 lets you configure your GitHub repository
 so that every time you push a new version of your software,
 the documentation gets automatically rebuilt
