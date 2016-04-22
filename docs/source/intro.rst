@@ -52,6 +52,5 @@ Examples on Sphinx
 * http://docs.geoserver.org/latest/en/user/
 * http://ryan-roemer.github.io/sphinx-bootstrap-theme/
 * http://cppformat.github.io/latest/
-
-
+* http://doc.mapbender3.org/index.html
 
