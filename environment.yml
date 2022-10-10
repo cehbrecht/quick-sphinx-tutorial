@@ -7,5 +7,5 @@ dependencies:
   - sphinx
   - sphinx_rtd_theme
   - pytest
-  - pip:
+  - pip3:
     - sphinx-autoapi
